@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/PVP"
+            android:layout_width="78dp"
+            android:layout_height="60dp"
+            android:layout_margin="7sp"
+            android:background="@color/lightbrown"
+            android:onClick="chooseMode"
+            android:text="Player vs Player"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/PVC"
+            android:layout_width="78dp"
+            android:layout_height="60dp"
+            android:layout_margin="7sp"
+            android:text="Player vs CPU"
+            android:background="@color/lightbrown"
+            android:onClick="chooseMode"
+            android:textAllCaps="false" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="3pt"
+        android:layout_marginTop="3pt"
+        >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btClick"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="btClick"
+            android:textSize="40dp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:textSize="40dp"
+            android:textStyle="bold"
+             />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="3pt">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:layout_marginRight="3pt"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:layout_marginRight="3pt"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="3pt">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:layout_marginRight="3pt"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:layout_marginRight="3pt"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:onClick="btClick"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="restartGame"
+            android:text="Reset"
+            android:background="@color/lightbrown2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+</TableLayout>
