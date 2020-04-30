@@ -187,6 +187,7 @@ open class MainActivity : AppCompatActivity() {
 
         }
     fun restartGame(view:View){
+
         button.setBackgroundResource(android.R.drawable.btn_default)
         button2.setBackgroundResource(android.R.drawable.btn_default)
         button3.setBackgroundResource(android.R.drawable.btn_default)

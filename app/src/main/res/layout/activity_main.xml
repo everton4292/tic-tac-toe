@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity"
-    android:background="@color/white">
+    android:background="@drawable/background">
 
     <TableRow
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:layout_height="40pt"
             android:layout_marginRight="3pt"
             android:onClick="btClick"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
             />
 
@@ -62,7 +62,7 @@
             android:layout_height="40pt"
             android:layout_marginRight="3pt"
             android:onClick="btClick"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
              />
 
@@ -71,7 +71,7 @@
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:onClick="btClick"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
              />
     </TableRow>
@@ -88,7 +88,7 @@
             android:layout_height="40pt"
             android:onClick="btClick"
             android:layout_marginRight="3pt"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"/>
 
         <Button
@@ -105,7 +105,7 @@
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:onClick="btClick"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
             />
     </TableRow>
@@ -122,7 +122,7 @@
             android:layout_height="40pt"
             android:onClick="btClick"
             android:layout_marginRight="3pt"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"/>
 
         <Button
@@ -131,15 +131,16 @@
             android:layout_height="40pt"
             android:onClick="btClick"
             android:layout_marginRight="3pt"
-            android:textSize="40dp"
-            android:textStyle="bold"/>
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="40pt"
             android:layout_height="40pt"
             android:onClick="btClick"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
             />
     </TableRow>
@@ -155,7 +156,8 @@
             android:layout_height="wrap_content"
             android:onClick="restartGame"
             android:text="Reset"
-            android:background="@color/lightbrown2"
+            android:background="@drawable/round_edges"
+            android:backgroundTint="@color/lightbrown2"
             android:textAlignment="center"
             android:textSize="18sp"
             tools:ignore="ButtonStyle" />
